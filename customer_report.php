@@ -1,7 +1,6 @@
 <?php
 require_once('../assets/constants/config.php');
 require_once('constants/check-login.php');
-require_once('constants/fetch-my-info.php');
 include('header.php');
 ?>
 <?php 
@@ -16,7 +15,7 @@ $result = $stmt->fetch(PDO::FETCH_ASSOC);
 ?>
 <!-- BEGIN: Content-->
     <div class="app-content content">
-      <a href="#sale_report"  data-toggle="modal" data-target=""><img style="width: 100%;"  src="../assets/dashboard.png"></a>
+      <a href="#sale_report"  data-toggle="modal" data-target=""><img style="width: 100%;"  src="../assets/customer_report.png"></a>
     <div class="modal fade bs-example-modal-lg" id="sale_report" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -38,5 +37,4 @@ $result = $stmt->fetch(PDO::FETCH_ASSOC);
     </div>
     </div>
     <!-- END: Content-->
-
-    <?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
