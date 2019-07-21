@@ -1,0 +1,2 @@
+# Pharmacy-Store-Management-System
+The main objective of the Pharmacy Management System is to manage the details of Medicines, Stocks, Inventory, Pharmacy, Sells. It manages all the information about Medicines, Company, Sells, Medicines. The project is totally built at administrative end and thus only the administrator is guaranteed the access. The purpose of the project is to build an application program to reduce the manual work for managing the Medicines, Stocks, Company, Inventory. It tracks all the details about the Inventory, Pharmacy, Sells.
